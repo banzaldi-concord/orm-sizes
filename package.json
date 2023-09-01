@@ -1,0 +1,18 @@
+{
+  "name": "skeleton",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "esbuild ./src/index.ts --bundle --platform=node --target=node18.17 --outdir=dist --external:pg-native --metafile=meta.json",
+    "visualize": "esbuild-visualizer --metadata ./meta.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "^0.19.2",
+    "esbuild-visualizer": "^0.4.1"
+  }
+}
