@@ -1,0 +1,21 @@
+{
+  "inputs": {
+    "src/index.ts": {
+      "bytes": 29,
+      "imports": []
+    }
+  },
+  "outputs": {
+    "dist/index.js": {
+      "imports": [],
+      "exports": [],
+      "entryPoint": "src/index.ts",
+      "inputs": {
+        "src/index.ts": {
+          "bytesInOutput": 29
+        }
+      },
+      "bytes": 45
+    }
+  }
+}
