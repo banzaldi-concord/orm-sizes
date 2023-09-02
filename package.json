@@ -14,5 +14,10 @@
   "devDependencies": {
     "esbuild": "^0.19.2",
     "esbuild-visualizer": "^0.4.1"
+  },
+  "dependencies": {
+    "pg": "^8.11.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.32.1"
   }
 }
