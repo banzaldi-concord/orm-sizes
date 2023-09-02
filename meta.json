@@ -1,21 +1,497 @@
 {
   "inputs": {
+    "node_modules/drizzle-orm/alias-a0c6a0a1.mjs": {
+      "bytes": 138661,
+      "imports": [],
+      "format": "esm"
+    },
+    "node_modules/drizzle-orm/index.mjs": {
+      "bytes": 2667,
+      "imports": [
+        {
+          "path": "node_modules/drizzle-orm/alias-a0c6a0a1.mjs",
+          "kind": "import-statement",
+          "original": "./alias-a0c6a0a1.mjs"
+        },
+        {
+          "path": "node_modules/drizzle-orm/alias-a0c6a0a1.mjs",
+          "kind": "import-statement",
+          "original": "./alias-a0c6a0a1.mjs"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/drizzle-orm/session-97488fcd.mjs": {
+      "bytes": 16113,
+      "imports": [
+        {
+          "path": "node_modules/drizzle-orm/alias-a0c6a0a1.mjs",
+          "kind": "import-statement",
+          "original": "./alias-a0c6a0a1.mjs"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/drizzle-orm/postgres-js/index.mjs": {
+      "bytes": 5678,
+      "imports": [
+        {
+          "path": "node_modules/drizzle-orm/index.mjs",
+          "kind": "import-statement",
+          "original": "../index.mjs"
+        },
+        {
+          "path": "node_modules/drizzle-orm/session-97488fcd.mjs",
+          "kind": "import-statement",
+          "original": "../session-97488fcd.mjs"
+        },
+        {
+          "path": "node_modules/drizzle-orm/alias-a0c6a0a1.mjs",
+          "kind": "import-statement",
+          "original": "../alias-a0c6a0a1.mjs"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/drizzle-orm/migrator.mjs": {
+      "bytes": 1761,
+      "imports": [
+        {
+          "path": "node:crypto",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "node:fs",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "node:path",
+          "kind": "import-statement",
+          "external": true
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/drizzle-orm/postgres-js/migrator.mjs": {
+      "bytes": 318,
+      "imports": [
+        {
+          "path": "node_modules/drizzle-orm/migrator.mjs",
+          "kind": "import-statement",
+          "original": "../migrator.mjs"
+        },
+        {
+          "path": "node:crypto",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "node:fs",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "node:path",
+          "kind": "import-statement",
+          "external": true
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/postgres/src/query.js": {
+      "bytes": 3611,
+      "imports": [],
+      "format": "esm"
+    },
+    "node_modules/postgres/src/errors.js": {
+      "bytes": 1155,
+      "imports": [],
+      "format": "esm"
+    },
+    "node_modules/postgres/src/types.js": {
+      "bytes": 10878,
+      "imports": [
+        {
+          "path": "node_modules/postgres/src/query.js",
+          "kind": "import-statement",
+          "original": "./query.js"
+        },
+        {
+          "path": "node_modules/postgres/src/errors.js",
+          "kind": "import-statement",
+          "original": "./errors.js"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/postgres/src/result.js": {
+      "bytes": 416,
+      "imports": [],
+      "format": "esm"
+    },
+    "node_modules/postgres/src/queue.js": {
+      "bytes": 541,
+      "imports": [],
+      "format": "esm"
+    },
+    "node_modules/postgres/src/bytes.js": {
+      "bytes": 1362,
+      "imports": [],
+      "format": "esm"
+    },
+    "node_modules/postgres/src/connection.js": {
+      "bytes": 27564,
+      "imports": [
+        {
+          "path": "net",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "tls",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "crypto",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "stream",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "node_modules/postgres/src/types.js",
+          "kind": "import-statement",
+          "original": "./types.js"
+        },
+        {
+          "path": "node_modules/postgres/src/errors.js",
+          "kind": "import-statement",
+          "original": "./errors.js"
+        },
+        {
+          "path": "node_modules/postgres/src/result.js",
+          "kind": "import-statement",
+          "original": "./result.js"
+        },
+        {
+          "path": "node_modules/postgres/src/queue.js",
+          "kind": "import-statement",
+          "original": "./queue.js"
+        },
+        {
+          "path": "node_modules/postgres/src/query.js",
+          "kind": "import-statement",
+          "original": "./query.js"
+        },
+        {
+          "path": "node_modules/postgres/src/bytes.js",
+          "kind": "import-statement",
+          "original": "./bytes.js"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/postgres/src/subscribe.js": {
+      "bytes": 7426,
+      "imports": [],
+      "format": "esm"
+    },
+    "node_modules/postgres/src/large.js": {
+      "bytes": 2133,
+      "imports": [
+        {
+          "path": "stream",
+          "kind": "import-statement",
+          "external": true
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/postgres/src/index.js": {
+      "bytes": 14008,
+      "imports": [
+        {
+          "path": "os",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "fs",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "node_modules/postgres/src/types.js",
+          "kind": "import-statement",
+          "original": "./types.js"
+        },
+        {
+          "path": "node_modules/postgres/src/connection.js",
+          "kind": "import-statement",
+          "original": "./connection.js"
+        },
+        {
+          "path": "node_modules/postgres/src/query.js",
+          "kind": "import-statement",
+          "original": "./query.js"
+        },
+        {
+          "path": "node_modules/postgres/src/queue.js",
+          "kind": "import-statement",
+          "original": "./queue.js"
+        },
+        {
+          "path": "node_modules/postgres/src/errors.js",
+          "kind": "import-statement",
+          "original": "./errors.js"
+        },
+        {
+          "path": "node_modules/postgres/src/subscribe.js",
+          "kind": "import-statement",
+          "original": "./subscribe.js"
+        },
+        {
+          "path": "node_modules/postgres/src/large.js",
+          "kind": "import-statement",
+          "original": "./large.js"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/drizzle-orm/pg-core/index.mjs": {
+      "bytes": 17832,
+      "imports": [
+        {
+          "path": "node_modules/drizzle-orm/alias-a0c6a0a1.mjs",
+          "kind": "import-statement",
+          "original": "../alias-a0c6a0a1.mjs"
+        },
+        {
+          "path": "node_modules/drizzle-orm/alias-a0c6a0a1.mjs",
+          "kind": "import-statement",
+          "original": "../alias-a0c6a0a1.mjs"
+        },
+        {
+          "path": "node_modules/drizzle-orm/session-97488fcd.mjs",
+          "kind": "import-statement",
+          "original": "../session-97488fcd.mjs"
+        }
+      ],
+      "format": "esm"
+    },
+    "src/entities/post.ts": {
+      "bytes": 607,
+      "imports": [
+        {
+          "path": "node_modules/drizzle-orm/index.mjs",
+          "kind": "import-statement",
+          "original": "drizzle-orm"
+        },
+        {
+          "path": "node_modules/drizzle-orm/pg-core/index.mjs",
+          "kind": "import-statement",
+          "original": "drizzle-orm/pg-core"
+        },
+        {
+          "path": "src/entities/user.ts",
+          "kind": "import-statement",
+          "original": "./user"
+        }
+      ],
+      "format": "esm"
+    },
+    "src/entities/user.ts": {
+      "bytes": 506,
+      "imports": [
+        {
+          "path": "node_modules/drizzle-orm/index.mjs",
+          "kind": "import-statement",
+          "original": "drizzle-orm"
+        },
+        {
+          "path": "node_modules/drizzle-orm/pg-core/index.mjs",
+          "kind": "import-statement",
+          "original": "drizzle-orm/pg-core"
+        },
+        {
+          "path": "src/entities/post.ts",
+          "kind": "import-statement",
+          "original": "./post"
+        }
+      ],
+      "format": "esm"
+    },
+    "src/entities/index.ts": {
+      "bytes": 47,
+      "imports": [
+        {
+          "path": "src/entities/user.ts",
+          "kind": "import-statement",
+          "original": "./user"
+        },
+        {
+          "path": "src/entities/post.ts",
+          "kind": "import-statement",
+          "original": "./post"
+        }
+      ],
+      "format": "esm"
+    },
     "src/index.ts": {
-      "bytes": 29,
-      "imports": []
+      "bytes": 641,
+      "imports": [
+        {
+          "path": "node_modules/drizzle-orm/postgres-js/index.mjs",
+          "kind": "import-statement",
+          "original": "drizzle-orm/postgres-js"
+        },
+        {
+          "path": "node_modules/drizzle-orm/postgres-js/migrator.mjs",
+          "kind": "import-statement",
+          "original": "drizzle-orm/postgres-js/migrator"
+        },
+        {
+          "path": "node_modules/postgres/src/index.js",
+          "kind": "import-statement",
+          "original": "postgres"
+        },
+        {
+          "path": "src/entities/index.ts",
+          "kind": "import-statement",
+          "original": "./entities"
+        }
+      ],
+      "format": "esm"
     }
   },
   "outputs": {
     "dist/index.js": {
-      "imports": [],
+      "imports": [
+        {
+          "path": "node:crypto",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "node:fs",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "node:path",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "os",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "fs",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "net",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "tls",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "crypto",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "stream",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "stream",
+          "kind": "require-call",
+          "external": true
+        }
+      ],
       "exports": [],
       "entryPoint": "src/index.ts",
       "inputs": {
+        "node_modules/drizzle-orm/alias-a0c6a0a1.mjs": {
+          "bytesInOutput": 104623
+        },
+        "node_modules/drizzle-orm/index.mjs": {
+          "bytesInOutput": 725
+        },
+        "node_modules/drizzle-orm/session-97488fcd.mjs": {
+          "bytesInOutput": 13102
+        },
+        "node_modules/drizzle-orm/postgres-js/index.mjs": {
+          "bytesInOutput": 4605
+        },
+        "node_modules/drizzle-orm/migrator.mjs": {
+          "bytesInOutput": 1732
+        },
+        "node_modules/drizzle-orm/postgres-js/migrator.mjs": {
+          "bytesInOutput": 140
+        },
+        "node_modules/postgres/src/index.js": {
+          "bytesInOutput": 13172
+        },
+        "node_modules/postgres/src/query.js": {
+          "bytesInOutput": 3621
+        },
+        "node_modules/postgres/src/errors.js": {
+          "bytesInOutput": 1128
+        },
+        "node_modules/postgres/src/types.js": {
+          "bytesInOutput": 10375
+        },
+        "node_modules/postgres/src/connection.js": {
+          "bytesInOutput": 28917
+        },
+        "node_modules/postgres/src/result.js": {
+          "bytesInOutput": 410
+        },
+        "node_modules/postgres/src/queue.js": {
+          "bytesInOutput": 544
+        },
+        "node_modules/postgres/src/bytes.js": {
+          "bytesInOutput": 1390
+        },
+        "node_modules/postgres/src/subscribe.js": {
+          "bytesInOutput": 7286
+        },
+        "node_modules/postgres/src/large.js": {
+          "bytesInOutput": 2138
+        },
+        "node_modules/drizzle-orm/pg-core/index.mjs": {
+          "bytesInOutput": 11870
+        },
+        "src/entities/post.ts": {
+          "bytesInOutput": 431
+        },
+        "src/entities/user.ts": {
+          "bytesInOutput": 341
+        },
+        "src/entities/index.ts": {
+          "bytesInOutput": 0
+        },
         "src/index.ts": {
-          "bytesInOutput": 29
+          "bytesInOutput": 439
         }
       },
-      "bytes": 45
+      "bytes": 209036
     }
   }
 }

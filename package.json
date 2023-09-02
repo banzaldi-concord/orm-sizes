@@ -12,7 +12,12 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "drizzle-kit": "^0.19.13",
     "esbuild": "^0.19.2",
     "esbuild-visualizer": "^0.4.1"
+  },
+  "dependencies": {
+    "drizzle-orm": "^0.28.5",
+    "postgres": "^3.3.5"
   }
 }
